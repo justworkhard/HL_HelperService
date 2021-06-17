@@ -1,37 +1,34 @@
-### 3 分钟了解如何进入开发
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-欢迎使用云效 Codeup，通过阅读以下内容，你可以快速熟悉 Codeup ，并立即开始今天的工作。
+## Getting Started
 
-### 提交**文件**
+First, run the development server:
 
-首先，你需要了解在 Codeup 中如何提交代码文件，跟着文档「[__提交第一行代码__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e7546fd9001aee81fd)」一起操作试试看吧。
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-### 开启扫描
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-开发过程中，为了更好的管理你的代码资产，Codeup 内置了「[__代码规约扫描__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e8546fd9001aee821c)」和「[__敏感信息检测__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e8546fd9001aee821b)」服务，你可以在代码库设置-集成与服务中一键开启，开启后提交或合并请求的变更将自动触发扫描，并及时提供结果反馈。
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-![](https://img.alicdn.com/tfs/TB1nRDatoz1gK0jSZLeXXb9kVXa-1122-380.png "")
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-![](https://img.alicdn.com/tfs/TB1PrPatXY7gK0jSZKzXXaikpXa-1122-709.png "")
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-### 代码评审
+## Learn More
 
-功能开发完毕后，通常你需要发起「[__代码合并和评审__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e8546fd9001aee8216)」，Codeup 支持多人协作的代码评审服务，你可以通过「[__保护分支__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e9546fd9001aee8221)」策略及「[__合并请求设置__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e9546fd9001aee8224)」对合并过程进行流程化管控，同时提供 WebIDE 在线代码评审及冲突解决能力，让你的评审过程更加流畅。
+To learn more about Next.js, take a look at the following resources:
 
-![](https://img.alicdn.com/tfs/TB1XHrctkP2gK0jSZPxXXacQpXa-1432-887.png "")
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-![](https://img.alicdn.com/tfs/TB1V3fctoY1gK0jSZFMXXaWcVXa-1432-600.png "")
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-### 编写文档
+## Deploy on Vercel
 
-项目推进过程中，你的经验和感悟可以直接记录到 Codeup 代码库的「[__文档__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e8546fd9001aee8213)」内，让智慧可视化。
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-![](https://img.alicdn.com/tfs/TB1BN2ateT2gK0jSZFvXXXnFXXa-1432-700.png "")
-
-### 成员协作
-
-是时候邀请成员一起编写卓越的代码工程了，请点击右上角「成员」邀请你的小伙伴开始协作吧！
-
-### 更多
-
-Git 使用教学、高级功能指引等更多说明，参见[__Codeup帮助文档__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e6546fd9001aee81fa)。
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
