@@ -10,17 +10,17 @@ const websiteHeader = ({ tabName = '首页' }) => {
         <Link href='/'>
           <a className={tabName === '首页' ? styles['tab-item-ac'] : ''}>首页</a>
         </Link>
-        <Link href='/'>
+        <Link href='/product'>
           <a className={tabName === '产品优势' ? styles['tab-item-ac'] : ''}>
             产品优势
           </a>
         </Link>
-        <Link href='/'>
+        <Link href='/serviceSupport'>
           <a className={tabName === '服务与支持' ? styles['tab-item-ac'] : ''}>
             服务与支持
           </a>
         </Link>
-        <Link href='/'>
+        <Link href='/about'>
           <a className={tabName === '关于我们' ? styles['tab-item-ac'] : ''}>
             关于我们
           </a>

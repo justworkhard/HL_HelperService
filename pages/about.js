@@ -1,12 +1,12 @@
 import WebsiteHeader from '../component/websiteHeader';
 import WebsiteFooter from '../component/websiteFooter';
 
-export default function Home() {
+export default function About() {
   return (
     <div style={{width: '100vw', minWidth: '900px'}}>
-      <WebsiteHeader tabName="首页" />
+      <WebsiteHeader tabName="关于我们" />
       {/* 在这里写你的中间内容部分 */}
-      <p>首页</p>
+      <p>关于我们</p>
       <WebsiteFooter />
     </div>
   )
